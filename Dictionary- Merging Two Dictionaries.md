@@ -12,10 +12,15 @@ To write a Python program that merges **two dictionaries** and combines their ke
 ## 🧾 Program
 
 def merge(dict1,dict2):
+
     merged_dict = {**dict1 , **dict2}
+    
     print(merged_dict)
+    
 dict1 = eval(input("Dictionary-1 : "))
+
 dict2 = eval(input("Dictionary-2 : "))
+
 merge(dict1,dict2)
 
 ## Output
